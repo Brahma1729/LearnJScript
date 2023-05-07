@@ -1,0 +1,15 @@
+There are 7 Primitive datatypes in JS
+
+1. Boolean
+2. Number
+3. Bigint
+4. null - declared with null Because JS is casesensitive null is not same as Null or Null
+5. Undefined - whose value is not defined
+6. String -> Immutable
+7. Symbol -> Unique and Immutable
+
+other one important datatype is "Object"
+
+except above 7 all are objects in JS
+
+

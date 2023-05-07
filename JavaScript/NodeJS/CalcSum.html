@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<button ondblclick="myaddfn()">Addition</button>
+<h1 id="addResult">Result</h1>
+<script type="text/javascript">
+	function myaddfn()
+	{
+		let n1=prompt("Enter Number 1")
+		let n2=prompt("Enter Number 2")
+		let num1=parseInt(n1)
+		let num2=parseInt(n2)
+		let result=num1+num2
+		document.getElementById("addResult").innerHTML=result
+
+		//document.write(`The sum of ${num1} and ${num2} is ${result}`)
+		//document.write('<br>')
+		//document.write('The sum of' +num1 +' and ' +num2 + ' is ' +result)
+	}	
+</script>
+
+</body>
+</html>

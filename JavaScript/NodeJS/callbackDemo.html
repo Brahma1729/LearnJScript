@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <h1 id="name1"></h1>
+        <h1 id="name2"></h1>
+        <h1 id="name3"></h1>
+        <h1 id="name4"></h1>
+
+        <script type="text/javascript">
+
+            document.getElementById('name1').innerHTML= "JS"
+            //<!-- Here we have used the named function-->
+            setTimeout(show,5000) 
+            function show()
+            {
+                document.getElementById('name2').innerHTML="Cypress"
+            }
+
+            //here call back function is an anonymous function
+            setTimeout(function () 
+            {
+                document.getElementById('name2').innerHTML="CypressV2"
+            }, 
+            10000)
+            //here call back function is an anonymous function using arrow expression
+            setTimeout(()=>
+            {
+                document.getElementById('name2').innerHTML="CypressV3"
+            }, 
+            15000)
+            
+            document.getElementById('name3').innerHTML='Java'
+            document.getElementById('name4').innerHTML='Python'
+
+
+        </script>
+    </body>
+</html>
