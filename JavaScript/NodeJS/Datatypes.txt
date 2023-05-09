@@ -13,3 +13,25 @@ other one important datatype is "Object"
 except above 7 all are objects in JS
 
 
+Difference between var, let and const
+
+once if variable is declared we can't redeclare with let  but it's possible with var
+eg :
+var a = 10;
+var a = 20; // redeclaring the already declared variable a
+
+let b =10;
+b = 20; // U can change the value but not allow to redeclare like let b = 20;
+
+Once declare any variable with const u can't change it's value
+
+another difference between var and let is declaring in for loop
+
+for(var i =0;i<5;i++) // outside for loop also we can access variable i
+
+for (let i=0; i<5; i++) // outside of for loop we can't access variable i
+
+** Don't ever use var, always use let or const
+
+
+
