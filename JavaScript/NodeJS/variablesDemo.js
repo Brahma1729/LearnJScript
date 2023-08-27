@@ -1,6 +1,6 @@
 // let var const
 
-let num = 100
+let num = 100 
 console.log(num)
 
 // let will allow you to change the value and 
@@ -10,6 +10,10 @@ console.log(num)
 // " ; " is optional at the end of the statement
 
 let str = "This is a string way of declaration"
+
+console.log(str[10]) // we can access the each character in string by using index 
+console.log(str[str.length-1])  // length function is not defined but string has the menthod length to find the length of the string
+
 let bool = true  // declaration of boolean variable
 console.log(str) 
 console.log(bool)

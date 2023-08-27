@@ -1,0 +1,7 @@
+
+<myResult>
+{
+for $x in //m:AllPlayerNamesResponse/m:AllPlayerNamesResult/m:tPlayerName
+return <m:tPlayerName>{data($x/m:sName)}</m:tPlayerName>
+}
+</myResult>

@@ -27,7 +27,7 @@ arr.forEach(function(x) {
 
 arr.push(80) // To add new element into array
 console.log(arr);
-arr.unshift(09) // To add new element at begining of array
+arr.unshift(9) // To add new element at begining of array
 console.log(arr);
 arr.pop() // To remove last element of array
 console.log(arr);

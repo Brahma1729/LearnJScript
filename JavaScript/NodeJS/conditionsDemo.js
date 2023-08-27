@@ -29,7 +29,7 @@ switch (key) {
 }
 */
 
-switch ("chrome") {
+switch (browser) {
     case "chrome":
         console.log("Chrome Started")
         break;

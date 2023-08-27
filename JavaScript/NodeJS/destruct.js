@@ -5,7 +5,7 @@ let employee = {
 }
 
 //let {name, age, language} = employee
-//destructure command should have same anames as the object and we can also provide aliase names
+//destructure command should have same names as the object and we can also provide aliase names
 
 let {name:n,  age:a, language:l} = employee
 
